@@ -1,0 +1,7 @@
+{
+  "name": "@wcd/joaobonini.pokemons",
+  "version": "0.0.0",
+  "scripts": {
+    "serve": "npx wcd-cli@latest serve ksgegOsFKNbAeZ6c0gQq --open"
+  }
+}

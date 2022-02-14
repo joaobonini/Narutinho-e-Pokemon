@@ -1,0 +1,28 @@
+<template>
+  <lightning-card>
+
+    <!-- <div class="slds-m-around_medium">
+      <h1 class="slds-text-heading_large">
+        Estrutura de Dados
+      </h1>
+      <p>{pessoa.nome}</p>
+      <p>{pessoa.tel}</p>
+      <p>{pessoa.idade}</p>
+      <h1 class="slds-text-heading_large">
+        Meus Pokemons e suas Evoluções
+      </h1>
+      <template for:each={pokemons} for:item="poke">
+        <p key={poke.cod}>Nome: {poke.nome}, Tipo: {poke.tipo}, Nivel: {poke.nivel}</p>
+      </template> -->
+
+    <div class="slds-m-around_medium">
+      <h1 class="slds-text-heading_large">
+        NARUTINHO
+      </h1>
+      <template for:each={naruto} for:item="ninja">
+        <p key={ninja.codN}>Nome: {ninja.nome}, Jutsu: {ninja.jutsu}, Clã: {ninja.cla}, Classificação:
+          {ninja.classificacao}, Chakra: {ninja.chakra}</p>
+      </template>
+    </div>
+  </lightning-card>
+</template>
